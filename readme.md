@@ -1,4 +1,4 @@
-# Set of Common definitions for Backend Services
+# Set of Common Definitions for Backend Services
 
 > Common definitions for writing backend services for Panoramic's websocket-based server architecture.
 
@@ -11,7 +11,7 @@ you have to install this library directly from GitHub, e.g. via [elm-github-inst
 
 ## Taggers
 
-Taggers is a term that was used in Elm's codebase (in Effects Managers) and sort of stuck for us. It's effectively a `Msg Constructor function`.
+Taggers is a term that is used in Elm's codebase (in Effects Managers). It's effectively a `Msg Constructor function`.
 
 Imagine the following:
 
@@ -69,5 +69,5 @@ type alias LogTagger payload msg =
     ( LogLevel, payload ) -> msg
 ```
 
-* `ErrorType` - See [elm-utils](https://github.com/panosoft/elm-utils#log)
+* `LogLevel` - See [elm-utils](https://github.com/panosoft/elm-utils#log)
 * `payload` - This payload is Service Dependent. The key here is that a single parameter constructs a Msg.
