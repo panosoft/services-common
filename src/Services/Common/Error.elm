@@ -1,17 +1,17 @@
 module Services.Common.Error
     exposing
-        ( sessionNotFound
+        ( invalidSession
         )
 
 {-|
     Common Services errors.
 
-@docs sessionNotFound
+@docs invalidSession
 -}
 
 
-{-| Session not found error message.
+{-| Invalid session error message.
 -}
-sessionNotFound : String
-sessionNotFound =
-    "SessionNotFound:b06f3667-3e35-42ce-b7e4-9a5a2cf23251"
+invalidSession : String
+invalidSession =
+    "InvalidSession:b06f3667-3e35-42ce-b7e4-9a5a2cf23251"
