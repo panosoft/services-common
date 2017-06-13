@@ -1,5 +1,5 @@
 {
-    "version": "3.0.0",
+    "version": "3.1.0",
     "summary": "Set of Common Definitions for Backend Services",
     "repository": "https://github.com/panosoft/services-common.git",
     "license": "Unlicense",
@@ -8,6 +8,7 @@
     ],
     "exposed-modules": [
         "Services.Common.Error",
+        "Services.Common.Session",
         "Services.Common.Taggers"
     ],
     "dependencies": {
